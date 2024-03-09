@@ -25,9 +25,6 @@ public class Producto {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getMarca() {
         return marca;
@@ -69,7 +66,7 @@ public class Producto {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Producto producto = (Producto) o;
-        return Objects.equals(marca, producto.marca) || Objects.equals(modelo, producto.modelo);
+        return Objects.equals(marca, producto.marca) && Objects.equals(modelo, producto.modelo);
     }
 
     @Override
@@ -88,7 +85,7 @@ public class Producto {
                  marca + "," +
                 modelo + "," +
                 precio + "€ ," +
-                 stock +
+                 stock + "uds" +
                 '}';
     }
 }
