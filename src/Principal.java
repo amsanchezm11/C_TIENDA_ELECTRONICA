@@ -11,7 +11,7 @@ public class Principal {
     Producto p2 = new Producto("Samsung", "Galaxy", 22.08, 6);
     Producto p3 = new Producto("Samsung", "Galaxy", 22.08, 10);
 
-    inven1.agregarProducto();
+
     lista2.add(p1);
 
 
