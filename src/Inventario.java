@@ -191,7 +191,7 @@ public class Inventario {
         listaProductos.add(p4);
 
 
-        // MENU
+        // MENU PRINCIPAL
 
         Scanner teclado = new Scanner(System.in);
 
